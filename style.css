@@ -1,0 +1,92 @@
+@font-face {
+    font-family: kavoon;
+    src: url(Kavoon-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/cenario.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Kavoon;
+    
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f00;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu:hover{
+    color: #f00;
+    cursor: pointer;
+}
+.lateral{
+    width: 200px;
+    height: 97vh;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.game{
+    height: 97vh;
+    width: 85vw;
+    background-image: url(img/cenario.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+#gamecont1 {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(10,100px);
+    gap: 10px;
+}
+.score{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: kavoon;
+    cursor: default;
+    margin-top: 40px;
+
+}
+.bloon{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    margin: 10px;
+    height: fit-content;
+    
+}
+#pt2{
+    flex-direction: column;
+    position: relative;
+}
+
+#sec{
+    position: relative;
+    top: -80px;
+}
+
+
